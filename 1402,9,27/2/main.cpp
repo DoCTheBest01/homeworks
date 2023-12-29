@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(int argc, char const *argv[]) {
+int main() {
     int n;
     printf("Enter A Number: ");
     scanf("%d", &n);
