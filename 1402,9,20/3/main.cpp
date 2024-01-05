@@ -1,10 +1,10 @@
-#include<iostream>
+#include<stdio.h>
 
 int main()
 {
     int n;
     scanf("%d", &n);
-    for (size_t i = 1; i <= n; i++)
+    for (int i = 1; i <= n; i++)
     {
         if (n % i == 0)
         {

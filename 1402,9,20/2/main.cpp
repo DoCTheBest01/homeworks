@@ -1,5 +1,20 @@
-#include<iostream>
-#include<math.h>
+#include<stdio.h>
+
+float abs(float x)
+{
+    if (x > 0)
+        return x;
+    return x * -1;
+}
+float pow(float a, float b)
+{
+    float result = 1;
+    for (int i = 0; i < abs(b); i++)
+    {
+        result *= a;
+    }
+    return result;
+}
 
 int main()
 {
@@ -9,3 +24,4 @@ int main()
     printf("%d", p);
     return 0;
 }
+
